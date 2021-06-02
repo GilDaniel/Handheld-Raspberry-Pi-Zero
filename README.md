@@ -14,4 +14,5 @@ Here is the full schemathic
 ![alt text](https://github.com/GilDaniel/Handheld-Raspberry-Pi-Zero/blob/main/Schematic_Rasp_portable_2021-04-30-1.jpg)
 
 OBS: A overclock is made on the config.txt file, for disabling it, erase the commands below #overclock
+
 PS: I speak portuguese, so, sorry for my english.
