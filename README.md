@@ -2,6 +2,8 @@
 
 So, I have made this project for a long time, and I'd like to share all the circuits and configuration files for helping someone who want to make something similar.It is not pretty,( Becouse I don't have access to a 3d printer) but the circuitry works just fine and I am enjoying a lot the games.
 
+Youtube video: https://www.youtube.com/watch?v=VMPekJrzFAk&t=5s
+
 ![alt text](https://github.com/GilDaniel/Handheld-Raspberry-Pi-Zero/blob/main/main.jpeg)
 
 The circuitry is pretty straightfoward, it's basicly two 18650 batterys connected in paralel, which are protected by a tp4560 charge/protection circuit. Then the 4.2v of the battery are stepped up to 5v with a MT3608 module that power all the 5v eletronics.
