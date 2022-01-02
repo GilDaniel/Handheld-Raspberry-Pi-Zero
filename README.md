@@ -1,15 +1,15 @@
 # Handheld-Raspberry-Pi-Zero
 
-So, I have made this project for a long time, and I'd like to share all the circuits and configuration files for helping someone who want to make something similar.It is not pretty,( Becouse I don't have access to a 3d printer) but the circuitry works just fine and I am enjoying a lot the games.
+I've made this project for a long, long time, and I'd like to share all the circuitry and config files for anyone who want to make something similar. It don't have an pretty case,(Becouse I don't have access to a 3d printer) but the circuitry works just fine and I am enjoying a lot the games.
 
 Youtube video: https://www.youtube.com/watch?v=VMPekJrzFAk&t=5s
 
 ![alt text](https://github.com/GilDaniel/Handheld-Raspberry-Pi-Zero/blob/main/main.jpeg)
 
-The circuitry is pretty straightfoward, it's basicly two 18650 batterys connected in paralel, which are protected by a tp4560 charge/protection circuit. Then the 4.2v of the battery are stepped up to 5v with a MT3608 module that power all the 5v eletronics.
-The d-pad and buttons have one terminal connected to the ground and the other to one of the Raspberry's GPIO. That, with the adafruit retrogame script, are regconized as a keyboard presses.
-I use for the audio, a low pass filter that smooth-out the raspberry's PWM audio (It's necessary to change the config.txt file for getting the audio on the GPIO 19),so the audio signal goes to the headphone jack and a PAM8403, that amplifies the audio for the speaker.
-I've modified a rear view car parking mirror, for work with 5 volts, and connect it's RCA video to the respective TV pins of the raspberry.
+The circuitry is pretty straightfoward, it's basicly two 18650 2000mah batteries connected in paralel, which are protected by a tp4560 charge/protection circuit. Then it's 4.2v are stepped up to 5v with a MT3608 module that power all the 5v eletronics.
+The D-pad and push-buttons have one terminal connected to the ground and the other one to the Raspberry's GPIO. whith that, the adafruit retrogame script regconizes the push-button presses as keyboard presses to control the game.
+I use for the audio, an low pass filter that smooths-out the Raspberry's PWM audio (It's necessary to change the config.txt file for getting the audio on the GPIO 19),so the audio signal goes to the headphone jack and the PAM8403 audio amplifier.
+I've modified a rear view car parking mirror, to work with 5 volts, and connect it's RCA video to the respective TV pins of the Raspberry-PI.
 
 Here is the full schemathic
 
@@ -17,4 +17,4 @@ Here is the full schemathic
 
 OBS: A overclock is made on the config.txt file, for disabling it, erase the commands below #overclock
 
-PS: I speak portuguese, so, sorry for my english.
+PS: I speak portuguese so, sorry for my english.
