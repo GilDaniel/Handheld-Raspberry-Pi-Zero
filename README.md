@@ -2,7 +2,7 @@
 
 DIY Raspberry Pi Zero powered videogame, made with cheap and accessible hardware.
 
-Contains an input sytem embbeded in the case, around two hours of battery life, PWM audio from the raspberry's GPIO, screen from a car's rear view display and much more.
+Contains an input sytem embbeded in the case, around two hours of battery life, PWM audio from the Raspberry's GPIO, screen from a car's rear view display and much more.
 
 I've worked on this project for a long, long time, so I am sharing all the circuitry and configuration files for anyone who want to make something similar.
 
